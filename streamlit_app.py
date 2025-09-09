@@ -6,15 +6,6 @@ from io import BytesIO
 st.set_page_config(page_title="Gestor de Recetas", layout="wide")
 
 st.title("Gestor Interno de Recetas")
-st.markdown(
-    """
-    Demo de la aplicación interna para gestión de recetas.  
-    Flujo de uso:
-    1. Subir archivo de recetas (Word o TXT).  
-    2. (Opcional) Subir Excel de ingredientes.  
-    3. Generar y descargar la plantilla de salida en Excel.  
-    """
-)
 
 # --- Sidebar ---
 st.sidebar.header("Instrucciones")
